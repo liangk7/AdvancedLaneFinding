@@ -129,3 +129,4 @@ def thresholding(img, sobel_t_min = 20, sobel_t_max = 100, s_t_min = 170, s_t_ma
 
 #work on lines and make sure that everything is set! compile this stuff and work on it on tuesday
 #try to find out how to plot out with matplot lib and idle
+#find out why my warp inverse doesnt work
