@@ -8,10 +8,10 @@ import glob
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import pickle
-#import imageio
-#imageio.plugins.ffmpeg.download()
-#from moviepy.editor import VideoFileClip
-#from IPython.display import HTML
+import imageio
+imageio.plugins.ffmpeg.download()
+from moviepy.editor import VideoFileClip
+from IPython.display import HTML
 
 np.set_printoptions(threshold=np.nan)
 
@@ -174,7 +174,7 @@ class Line():
 
 
 ##############################################
-#   Defining Functions
+#   Defining Helper Functions
 ##############################################
 def undistort(Frame):
     '''
